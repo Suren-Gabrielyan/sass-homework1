@@ -1,0 +1,48 @@
+footer{
+	margin-top: 40px;
+	margin-bottom: 80px;
+
+	.parent-footer{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		border-bottom: 5px solid black;
+		padding-bottom: 60px;
+
+
+		.about{
+			width: 65%;
+
+			 h2{
+			 	color: $mycolor2;
+			 	font-weight: 100;
+			 }
+
+
+			 p{
+			 	margin-top: 15px;
+			 	color: $mycolor2;
+			 }
+
+			 button{
+			 	width: 150px;
+			 	height: 40px;
+			 	color: #ffffff;
+			 	background-color: #E06F12;
+			 	border-radius: 3px;
+			 	border:none;
+			 	margin-top:40px;
+			 	cursor: pointer;
+			 }
+		}
+
+		.about-working{
+			width: 30%;
+
+			img{
+				width: 100%;
+				height: 200px;
+			}
+		}
+	}
+}

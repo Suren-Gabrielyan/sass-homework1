@@ -1,0 +1,50 @@
+nav{
+	background-color: #ffffff;
+	padding: 10px;
+
+	.parent-nav{
+		display: flex;
+		justify-content: space-between;
+
+
+		.logo{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+
+			h1{
+				color:#434954; 
+				font-size: 20px;
+
+				span{
+					color: $mycolor;
+				}
+			}
+		}
+
+		.menu{
+			ul{
+				display: flex;
+				justify-content: space-between;
+				list-style-type: none;
+
+				li{
+					a{
+						color:$mycolor;
+						text-decoration: none;
+						padding:10px 25px;
+						display:block;
+						font-weight: bold;
+
+						&:hover{
+						background-color: #434954;
+						color:#ffffff;
+						}
+
+					}
+				}
+			}
+		}
+	}
+}

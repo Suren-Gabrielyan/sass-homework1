@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 10px;
+}
+nav .parent-nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav .parent-nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+nav .parent-nav .logo h1 {
+  color: #434954;
+  font-size: 20px;
+}
+nav .parent-nav .logo h1 span {
+  color: #A4AAB5;
+}
+nav .parent-nav .menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+nav .parent-nav .menu ul li a {
+  color: #A4AAB5;
+  text-decoration: none;
+  padding: 10px 25px;
+  display: block;
+  font-weight: bold;
+}
+nav .parent-nav .menu ul li a:hover {
+  background-color: #434954;
+  color: #ffffff;
+}
+
+header {
+  max-width: 100%;
+  height: 450px;
+  background-image: url(1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+header .flag {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+header .flag .parent-header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+header .flag .parent-header h2 {
+  color: #868789;
+  font-size: 35px;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 100;
+}
+header .flag .parent-header p {
+  color: #868789;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 100;
+}
+header .flag .parent-header button {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 100px;
+  background-color: #DB6F15;
+  color: #ffffff;
+  margin-top: 60px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+aside {
+  background-color: #ffffff;
+}
+aside .parent-aside {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+aside .parent-aside .about {
+  padding: 10px 20px;
+}
+aside .parent-aside .about h2 {
+  color: #868789;
+}
+aside .parent-aside .about p {
+  color: #868789;
+  line-height: 25px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+aside .dont-miss {
+  background-color: #1E2023;
+  height: 100px;
+  margin-top: 40px;
+  padding: 15px;
+}
+aside .dont-miss .grab {
+  display: flex;
+  justify-content: space-between;
+}
+aside .dont-miss .grab h2 {
+  color: #868789;
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 25px;
+}
+aside .dont-miss .grab h2 span {
+  color: #DBDCDD;
+  cursor: pointer;
+}
+aside .dont-miss .grab button {
+  background-color: #DB6F15;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 40px;
+}
+main h2 {
+  color: #868789;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+main .parent-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .parent-main .works {
+  display: flex;
+  justify-content: space-between;
+}
+main .parent-main .works img {
+  width: 24%;
+  height: 200px;
+}
+main p {
+  margin-top: 20px;
+  color: #868789;
+  line-height: 20px;
+  border-bottom: 3px solid #F1F1F1;
+  padding-bottom: 30px;
+}
+main p span {
+  color: #DB6F15;
+  text-decoration: underline;
+  cursor: pointer;
+}
+main .about {
+  display: flex;
+  justify-content: space-between;
+}
+main .about .about1 {
+  width: 65%;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+footer .parent-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 5px solid black;
+  padding-bottom: 60px;
+}
+footer .parent-footer .about {
+  width: 65%;
+}
+footer .parent-footer .about h2 {
+  color: #868789;
+  font-weight: 100;
+}
+footer .parent-footer .about p {
+  margin-top: 15px;
+  color: #868789;
+}
+footer .parent-footer .about button {
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #E06F12;
+  border-radius: 3px;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+}
+footer .parent-footer .about-working {
+  width: 30%;
+}
+footer .parent-footer .about-working img {
+  width: 100%;
+  height: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
